@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "NOVA Assistant Bridge",
+  "version": "1.0.0",
+  "description": "Send the current page or selected text from Chrome to NOVA AI Assistant.",
+  "permissions": [
+    "contextMenus",
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Send to NOVA"
+  }
+}

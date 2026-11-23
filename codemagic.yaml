@@ -1,0 +1,11 @@
+workflows:
+  android-workflow:
+    name: Android Build
+    instance_type: linux_x2
+    max_build_duration: 60
+    scripts:
+      - name: Build APK
+        script: |
+          gradle assembleDebug
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk

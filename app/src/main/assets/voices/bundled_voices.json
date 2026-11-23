@@ -1,0 +1,80 @@
+{
+  "voices": [
+    {
+      "id": "nova_soft",
+      "name": "Nova Soft",
+      "gender": "female",
+      "locale": "ur-PK",
+      "fallbackLocale": "en-US",
+      "pitch": 1.14,
+      "rate": 0.96,
+      "bundled": true,
+      "sizeKb": 18,
+      "description": "Warm natural female offline voice (prebundled)"
+    },
+    {
+      "id": "ayesha_bright",
+      "name": "Ayesha Bright",
+      "gender": "female",
+      "locale": "en-IN",
+      "fallbackLocale": "hi-IN",
+      "pitch": 1.22,
+      "rate": 1.02,
+      "bundled": false,
+      "sizeKb": 420,
+      "packUrl": "https://raw.githubusercontent.com/ISHAQ-MD2/nova-voices/main/ayesha_bright.json",
+      "description": "Cheerful Hinglish/Urdu female voice pack"
+    },
+    {
+      "id": "zoya_calm",
+      "name": "Zoya Calm",
+      "gender": "female",
+      "locale": "en-GB",
+      "fallbackLocale": "en-US",
+      "pitch": 1.06,
+      "rate": 0.90,
+      "bundled": false,
+      "sizeKb": 390,
+      "packUrl": "https://raw.githubusercontent.com/ISHAQ-MD2/nova-voices/main/zoya_calm.json",
+      "description": "Calm storytelling female voice pack"
+    },
+    {
+      "id": "hira_crisp",
+      "name": "Hira Crisp",
+      "gender": "female",
+      "locale": "en-US",
+      "fallbackLocale": "en-GB",
+      "pitch": 1.18,
+      "rate": 1.06,
+      "bundled": false,
+      "sizeKb": 410,
+      "packUrl": "https://raw.githubusercontent.com/ISHAQ-MD2/nova-voices/main/hira_crisp.json",
+      "description": "Crisp assistant female voice pack"
+    },
+    {
+      "id": "sana_velvet",
+      "name": "Sana Velvet",
+      "gender": "female",
+      "locale": "hi-IN",
+      "fallbackLocale": "en-IN",
+      "pitch": 1.02,
+      "rate": 0.94,
+      "bundled": false,
+      "sizeKb": 440,
+      "packUrl": "https://raw.githubusercontent.com/ISHAQ-MD2/nova-voices/main/sana_velvet.json",
+      "description": "Deep gentle female voice pack"
+    },
+    {
+      "id": "zain_deep",
+      "name": "Zain Deep",
+      "gender": "male",
+      "locale": "en-US",
+      "fallbackLocale": "hi-IN",
+      "pitch": 0.82,
+      "rate": 0.96,
+      "bundled": true,
+      "sizeKb": 18,
+      "description": "Steady natural male offline voice (prebundled)"
+    }
+  ]
+}
